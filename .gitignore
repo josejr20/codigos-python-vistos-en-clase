@@ -180,10 +180,8 @@ solution.py
 
 # Archivos de metadatos de macOS
 .DS_Store
-
 # Otros
 /_tmp/
-
 # Unidades desde 06_arrays en adelante
 # /06_arrays/
 # /07_more_control_structures/
@@ -195,5 +193,5 @@ solution.py
 /13_namespace/
 /14_variable_declarations/
 /15_comments/
-/16_classes_objects/
-/17_modules_and_packages/
+# /16_classes_objects/
+# /17_modules_and_packages/

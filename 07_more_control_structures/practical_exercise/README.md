@@ -6,6 +6,9 @@ Completa `exercise.py`.
 
 El programa debe revisar productos de una tienda usando estructuras de control con `for`.
 
+No necesitas mostrar cada resultado con `print()`. Despues de completar cada TODO,
+revisa el valor de las variables para ver que hizo cada ciclo u operacion.
+
 Debes:
 
 1. crear una lista de productos;
@@ -17,7 +20,7 @@ Debes:
 7. encontrar el primer producto caro usando `break`;
 8. crear combinaciones de colores y tallas usando ciclos `for` anidados;
 9. crear saludos para clientes usando `for in`;
-10. mostrar todos los resultados.
+10. recorrer los saludos creados.
 
 Debes utilizar:
 
@@ -30,15 +33,22 @@ Debes utilizar:
 - `append()`;
 - `enumerate()`.
 
-## Ejemplo de salida
+## Valores esperados al revisar el resultado
 
-```text
-Productos disponibles: ['laptop', 'smartphone', 'teclado']
-Resultado de busqueda: impresora no encontrado
-Primer producto caro: laptop
-Variantes: ['negro - S', 'negro - M', 'negro - L', 'blanco - S', 'blanco - M', 'blanco - L']
-Saludos:
-Hola, Ana
-Hola, Luis
-Hola, Marta
+```python
+products  # ['laptop', 'tablet', 'smartphone', 'monitor', 'teclado']
+prices  # [1200, 800, 1500, 650, 120]
+out_of_stock  # ['tablet', 'monitor']
+available_products  # ['laptop', 'smartphone', 'teclado']
+search_product  # 'impresora'
+search_result  # 'impresora no encontrado'
+first_expensive_product  # 'laptop'
+colors  # ['negro', 'blanco']
+sizes  # ['S', 'M', 'L']
+variants  # ['negro - S', 'negro - M', 'negro - L', 'blanco - S', 'blanco - M', 'blanco - L']
+customers  # ['Ana', 'Luis', 'Marta']
+greetings  # ['Hola, Ana', 'Hola, Luis', 'Hola, Marta']
 ```
+
+En el ultimo `for`, `greeting` debe ir tomando valores como `"Hola, Ana"`,
+`"Hola, Luis"` y `"Hola, Marta"`.

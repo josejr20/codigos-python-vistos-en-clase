@@ -6,6 +6,9 @@ Completa `exercise.py`.
 
 El programa debe crear nuevas listas usando list comprehensions.
 
+No necesitas mostrar cada resultado con `print()`. Despues de completar cada TODO,
+revisa el valor de las variables para ver que hizo cada comprehension.
+
 Debes:
 
 1. crear una lista de numeros del 1 al 10;
@@ -17,8 +20,7 @@ Debes:
 7. crear una lista de nombres en mayusculas;
 8. crear una lista de nombres que tengan mas de 4 caracteres;
 9. crear pares `(numero, letra)` combinando numeros y letras con varios `for`;
-10. crear pares solo con numeros pares y vocales `"a"` y `"e"`;
-11. mostrar todos los resultados.
+10. crear pares solo con numeros pares y vocales `"a"` y `"e"`.
 
 Debes utilizar:
 
@@ -28,17 +30,22 @@ Debes utilizar:
 - metodos de strings dentro de una comprehension;
 - multiples `for` dentro de una comprehension.
 
-## Ejemplo de salida
+## Valores esperados al revisar el resultado
 
-```text
-Numeros: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-Cuadrados: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-Pares: [2, 4, 6, 8, 10]
-Mayores que 5: [6, 7, 8, 9, 10]
-Etiquetas: ['Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par']
-Pares duplicados e impares en cero: [0, 4, 0, 8, 0, 12, 0, 16, 0, 20]
-Nombres en mayusculas: ['ANA', 'LUIS', 'MARCELA', 'JOSE']
-Nombres largos: ['Marcela']
-Pares numero-letra: [(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b'), (3, 'a'), (3, 'b')]
-Pares filtrados: [(2, 'a'), (2, 'e'), (4, 'a'), (4, 'e')]
+```python
+numbers  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+squares  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+evens  # [2, 4, 6, 8, 10]
+greater_than_five  # [6, 7, 8, 9, 10]
+labels  # ['Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par', 'Impar', 'Par']
+modified_numbers  # [0, 4, 0, 8, 0, 12, 0, 16, 0, 20]
+names  # ['Ana', 'Luis', 'Marcela', 'Jose']
+uppercase_names  # ['ANA', 'LUIS', 'MARCELA', 'JOSE']
+long_names  # ['Marcela']
+small_numbers  # [1, 2, 3]
+letters  # ['a', 'b']
+number_letter_pairs  # [(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b'), (3, 'a'), (3, 'b')]
+more_numbers  # [1, 2, 3, 4]
+vowels  # ['a', 'e', 'i']
+filtered_pairs  # [(2, 'a'), (2, 'e'), (4, 'a'), (4, 'e')]
 ```
